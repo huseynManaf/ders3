@@ -11,7 +11,7 @@
             int deq = (saniye - gun * 24 * 60 * 60 - saat * 60 * 60) / 60;
             int san = saniye % 60;
             Console.WriteLine($"{gun} gun {saat} saat {deq} deqiqe  { san} saniye ");
-            Console.WriteLine("master");
+            Console.WriteLine("dev");
         }
     }
 }
